@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="WalletHub(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="URL" value="https://wallethub.com/join/light"/>
+    <classes>
+      <class name="com.wallethub.tests.TestWalletHubPage">
+        <methods>
+          <include name="postStatusTest"/>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.wallethub.tests.TestWalletHubPage -->
+    </classes>
+  </test> <!-- WalletHub(failed) -->
+</suite> <!-- Failed suite [Suite] -->

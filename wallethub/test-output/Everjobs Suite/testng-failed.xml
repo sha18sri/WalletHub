@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Everjobs Suite]">
+  <test thread-count="5" name="Page Object Model Project(failed)">
+    <classes>
+      <class name="com.wallethub.tests.TestFacebookPage">
+        <methods>
+          <include name="setup"/>
+          <include name="postStatusTest"/>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wallethub.tests.TestFacebookPage -->
+    </classes>
+  </test> <!-- Page Object Model Project(failed) -->
+</suite> <!-- Failed suite [Everjobs Suite] -->
